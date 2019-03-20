@@ -1,0 +1,42 @@
+{
+  "name": "peer-presents",
+  "version": "1.0.0",
+  "description": "Peer presents focuses on helping presenters receive useful feedback from their peers in the context of a live presentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creativecolab/peer-presents.git"
+  },
+  "author": "Warren Glasner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/creativecolab/peer-presents/issues"
+  },
+  "homepage": "https://github.com/creativecolab/peer-presents#readme",
+  "dependencies": {
+    "acl": "^0.4.11",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "csv-parse": "^4.3.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "jshint": "^2.10.1",
+    "mocha": "^6.0.1",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.15",
+    "mysql": "^2.16.0",
+    "node-env-file": "^0.1.8",
+    "passport": "^0.4.0",
+    "pug": "^2.0.3",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "redis": "^2.8.0",
+    "socket.io": "^2.2.0",
+    "socket.io-mongo": "0.0.8",
+    "socket.io-redis": "^5.2.0",
+    "ua-parser": "^0.3.5"
+  }
+}
